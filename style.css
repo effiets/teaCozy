@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+
+
+}
+/* header style */
+header{
+    width: 100%;
+    
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+}
+
+.logo{
+    height: 50px;
+    float: left;
+    padding: 10px;
+
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+  
+  
+}
+a{
+
+    text-decoration: underline;
+    padding: 0px 15px;
+    color: seashell;
+}
+
+/* section 1 style */
+section{
+    margin: auto;
+}
+
+.first{
+    height: 700px;
+    width: 1200px;
+    background-image: url(./resourses/img-mission-background.jpeg);
+    display:flex;
+    align-items:center;
+ 
+}
+.mission{
+    background-color: black;
+    width: 1200px;
+    align-content: space-around;
+   
+}
+
+.mission h2, .mission h4{
+    text-align: center;
+}
+
+/* section2 box style 2 */
+.second{
+    margin-top: 50px;
+    width: 1000px;
+}
+.tea h2, .tea h4{
+text-align: center;
+}
+.box img{
+
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.tea_boxes{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.box p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* locations section*/
+.locations{
+    margin-top: 50px;
+    height: 500px;
+    width: 1200px;
+    padding-top: 85px;
+    background-image: url(./resourses/img-locations-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.locations h2{
+    text-align: center;
+    opacity: 2;
+}
+
+.boxcontainer{
+    display:flex;
+    justify-content:center;
+    margin-top: 15px;
+    
+
+}
+.blackBox{
+    opacity:0.8;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: auto 20px;
+  
+}
+
+.blackBox h3{
+    padding-top: 20px;
+}
+
+/* contact*/
+.contactinfo{
+    text-align: center;
+}
+
+/* footer*/
+footer h5{
+    text-align: left;
+    margin-left: 20px;
+}
